@@ -9,8 +9,9 @@
 @import 'contact.scss';
 
 body {
-  font-family: 'Nunito';
+  font-family: 'Helvetica';
   letter-spacing: 0.0625em;
+  font-size: 1.1rem;
 }
 
 a {
@@ -26,12 +27,24 @@ a {
   background-color: $black !important;
 }
 
+.bg-blue {
+  background-color: $blue !important;
+}
+
 .bg-primary {
   background-color: $primary !important;
 }
 
 .text-primary {
   color: $primary !important;
+}
+
+.text-white-80 {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.text-white-70 {
+  color: rgba(255, 255, 255, 0.7) !important;
 }
 
 footer {

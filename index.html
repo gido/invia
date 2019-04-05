@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+  <meta name="description" content="In-Via, Espace de santé spirituelle.">
+  <meta name="author" content="In-Via">
 
-  <title>Grayscale - Start Bootstrap Theme</title>
+  <title>In-Via</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -26,7 +26,7 @@
 <body id="page-top">
 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+<!--   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -47,15 +47,20 @@
         </ul>
       </div>
     </div>
-  </nav>
+  </nav> -->
 
   <!-- Header -->
   <header class="masthead">
     <div class="container d-flex h-100 align-items-center">
       <div class="mx-auto text-center">
-        <h1 class="mx-auto my-0 text-uppercase">Grayscale</h1>
-        <h2 class="text-white-50 mx-auto mt-2 mb-5">A free, responsive, one page Bootstrap theme created by Start Bootstrap.</h2>
-        <a href="#about" class="btn btn-primary js-scroll-trigger">Get Started</a>
+        <h1 class="mx-auto my-0 text-uppercase">
+          <span style="display: none;">In-Via</span>
+          <img class="logo" src="./img/logo-invia.png" />
+        </h1>
+        <h2 class="text-white-80 mx-auto mt-4 mb-5 h1">
+          Un espace de santé spirituelle
+        </h2>
+        <a href="#about" class="btn btn-primary js-scroll-trigger">En savoir plus</a>
       </div>
     </div>
   </header>
@@ -65,12 +70,18 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto">
-          <h2 class="text-white mb-4">Built with Bootstrap 4</h2>
-          <p class="text-white-50">Grayscale is a free Bootstrap theme created by Start Bootstrap. It can be yours right now, simply download the template on
-            <a href="http://startbootstrap.com/template-overviews/grayscale/">the preview page</a>. The theme is open source, and you can use it for any purpose, personal or commercial.</p>
+          <h2 class="text-white mb-4">In via, un espace de santé spirituelle</h2>
+          <div class="text-white-80">
+            <p>
+              in-via, une association fondée sur des valeurs chrétiennes, offre un lieu de rencontre
+              ponctuelle et d’écoute individuelle dans des cabinets médicaux.
+            </p>
+            <p>Dans la confidentialité, le respect de la personne et de son contexte,
+              in-via encourage et soutient par la prière des personnes de toute origine et confession.
+            </p>
+          </div>
         </div>
       </div>
-      <img src="img/ipad.png" class="img-fluid" alt="">
     </div>
   </section>
 
@@ -85,8 +96,10 @@
         </div>
         <div class="col-xl-4 col-lg-5">
           <div class="featured-text text-center text-lg-left">
-            <h4>Shoreline</h4>
-            <p class="text-black-50 mb-0">Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects! Download it, customize it, and publish your website!</p>
+            <h4>Qui sommes-nous&nbsp;?</h4>
+            <p class="text-black-50 mb-0">
+              Des bénévoles, issus d'églises locales et formés à l'écoute.
+            </p>
           </div>
         </div>
       </div>
@@ -100,8 +113,8 @@
           <div class="bg-black text-center h-100 project">
             <div class="d-flex h-100">
               <div class="project-text w-100 my-auto text-center text-lg-left">
-                <h4 class="text-white">Misty</h4>
-                <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
+                <h4 class="text-white">Pour qui ?</h4>
+                <p class="mb-0 text-white-70">Pour toute personne éprouvant le besoin d'être accompagnée et soutenue spirituellement. Selon son désir, la prière peut lui être proposée.</p>
                 <hr class="d-none d-lg-block mb-0 ml-0">
               </div>
             </div>
@@ -118,9 +131,18 @@
           <div class="bg-black text-center h-100 project">
             <div class="d-flex h-100">
               <div class="project-text w-100 my-auto text-center text-lg-right">
-                <h4 class="text-white">Mountains</h4>
-                <p class="mb-0 text-white-50">Another example of a project with its respective description. These sections work well responsively as well, try this theme on a small screen!</p>
-                <hr class="d-none d-lg-block mb-0 mr-0">
+                <h4 class="text-white">RDV Gratuit</h4>
+                <p class="mb-0 text-white-50">
+                  Grâce à la générosité de bénévoles professionnels et de donateurs, nous pouvons
+                  <strong>offrir un service gratuit</strong>.
+                  Si vous désirez, vous pouvez aussi <a href="#donate">nous soutenir</a>.
+                </p>
+
+                <div class="mt-5">
+                  <a href="#rdv" class="btn btn-primary js-scroll-trigger">Prendre RDV</a>
+                </div>
+
+<!--                 <hr class="d-none d-lg-block mb-0 mr-0"> -->
               </div>
             </div>
           </div>
@@ -130,14 +152,14 @@
     </div>
   </section>
 
-  <!-- Signup Section -->
-  <section id="signup" class="signup-section">
+  <!-- Prendre RDV -->
+  <section id="rdv" class="signup-section">
     <div class="container">
       <div class="row">
         <div class="col-md-10 col-lg-8 mx-auto text-center">
 
-          <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
-          <h2 class="text-white mb-5">Subscribe to receive updates!</h2>
+          <i class="far fa-calendar-check fa-2x mb-2 text-white"></i>
+          <h2 class="text-white mb-5">Prendre RDV</h2>
 
           <form class="form-inline d-flex">
             <input type="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" placeholder="Enter email address...">
